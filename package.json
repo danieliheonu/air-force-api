@@ -4,11 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --runInBand",
     "test:watch": "jest --watchAll",
-    "build": "tsc -p .",
+    "build": "tsc",
     "dev": "nodemon src/server.ts",
-    "start": "node dist/src/server.js"
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -45,11 +45,12 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
+    "rootDir": "./src",
     "setupFiles": [
-      "./src/tests/jest-env.ts"
+      "./tests/jest-env.ts"
     ],
     "setupFilesAfterEnv": [
-      "./src/tests/jest.setup.ts"
+      "./tests/jest.setup.ts"
     ],
     "moduleFileExtensions": [
       "ts",
