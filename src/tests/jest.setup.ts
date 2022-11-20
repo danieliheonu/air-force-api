@@ -1,10 +1,7 @@
 import { MongoMemoryServer } from "mongodb-memory-server";
 import mongoose from "mongoose";
-import app from "../app";
-import request from "supertest";
-import User from "../models/user.model";
+import User, { UserDocument } from "../models/user.model";
 import jwt from "jsonwebtoken";
-import { UserDocument } from "../models/user.model";
 
 let mongo: MongoMemoryServer;
 

@@ -1,6 +1,5 @@
 import app from "../../app";
 import request from "supertest";
-import MotherShip from "../../models/motherships.model";
 import mothershipsModel from "../../models/motherships.model";
 import Ship from "../../models/ships.model";
 import Crew from "../../models/crews.model";
