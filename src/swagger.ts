@@ -9,7 +9,7 @@ export const options = {
 		},
 		servers: [
 			{
-				url: "http://localhost:5000",
+				url: "https://air-force-api.onrender.com",
 			},
 		],
 		components: {
