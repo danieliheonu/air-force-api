@@ -145,8 +145,8 @@
  *   security:
  *    - bearerAuth: []
  *   tags: [Motherships]
- *   summary: Retrieve All Ships Under A Mothership
- *   description: Retrieve All Ships Under A Mothership
+ *   summary: Remove A Ship From A Mothership
+ *   description: Remove A Ship From A Mothership
  *   parameters:
  *    - in: header
  *      name: Authorization

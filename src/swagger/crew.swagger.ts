@@ -35,8 +35,8 @@
  *   security:
  *    - bearerAuth: []
  *   tags: [Crews]
- *   summary: Create A Crew Member
- *   description: Create A Crew Member
+ *   summary: Get A Crew Member
+ *   description: Get A Crew Member
  *   parameters:
  *    - in: header
  *      name: Authorization
